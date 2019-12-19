@@ -18,6 +18,7 @@ nvidia-docker run -v $TRT_RELEASE:/tensorrt -v $TRT_SOURCE:/workspace/TensorRT -
 ```
 
 #### 编译TensorRT工程
+在docker内部：
 ```bash
 cd $TRT_SOURCE
 mkdir -p build && cd build 
